@@ -1,0 +1,22 @@
+
+*body {
+    font: liberations-serif;
+    margin: 20px;
+}
+.header h1, .header h2 {
+    display: inline;
+    margin: 0;
+}
+.header h2 {
+    margin-left: 5px; /* Ajuste o valor conforme necessário */
+    font-size: 1.5em;
+}
+hr {
+    border: 1px solid #000;
+    margin: 20px 0;
+}
+
+.lista {
+    list-style: none;
+    padding-left: 1px;
+  }

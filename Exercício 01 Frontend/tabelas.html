@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Estilizadas</title>
+    <link rel="stylesheet" href="tabelas.css">
+</head>
+<body>
+    <h2>Tabela Simples com Cabeçalho</h2>
+    <table class="tabela1">
+        <thead>
+            <tr>
+                <th>Primeiro nome</th>
+                <th>Sobrenome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aroldo</td>
+                <td>Gomes da Costa</td>
+            </tr>
+            <tr>
+                <td>Ana Flor</td>
+                <td>Margarida da Silva</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabela com thead, tfoot e tbody</h2>
+    <table class="tabela2">
+        <thead>
+            <tr>
+                <th>Filme</th>
+                <th>Diretor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sim Senhor</td>
+                <td>A Mulher do Lado</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Peyton Reed</td>
+                <td>François Truffaut</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Tabela com colgroup</h2>
+    <table class="tabela3">
+        <colgroup>
+            <col span="1" style="background-color: #e0e0e0;">
+            <col span="1" style="background-color: #f0f0f0;">
+            <col span="1" style="background-color: #e0e0e0;">
+            <col span="1" style="background-color: #f0f0f0;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Países</th>
+                <th>Capitais</th>
+                <th>População</th>
+                <th>Idioma</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brasil</td>
+                <td>Brasília, D.F</td>
+                <td>215,3 milhões</td>
+                <td>Português</td>
+            </tr>
+            <tr>
+                <td>México</td>
+                <td>Cidade do México</td>
+                <td>127,5 milhões</td>
+                <td>Espanhol</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
